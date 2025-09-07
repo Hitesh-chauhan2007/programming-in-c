@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main ()
+{
+	printf("Name - Hitesh\nSAP_ID-590027742\nCourse - BCA\nBatch - 6");
+    printf("\n-----------------------------------\n");
+    
+	float cp,sp,pp,lp,pt,ls;
+	printf("enter cost price = ");
+	scanf("%f",&cp);
+	printf("enter selling price = ");
+	scanf("%f",&sp);
+	
+	pt=sp-cp;
+	ls=cp-sp;
+	pp=(pt/cp)*100;
+	lp=(ls/cp)*100;
+	if (pt>=0)
+		{
+			printf("profit %.1f%%",pp);
+		}
+		else
+		{
+			printf("loss %.1f%%",lp);
+		}
+	
+	return 0;
+}

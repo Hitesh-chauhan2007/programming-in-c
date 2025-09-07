@@ -1,0 +1,31 @@
+//write a c program to find the roots of the quadratic equations
+
+#include<stdio.h>
+
+#include<math.h>
+
+int main ()
+
+{
+
+printf("Name - Hitesh\nSAP_ID-590027742\nCourse - BCA\nBatch - 6");
+printf("\n-----------------------------------\n");
+
+int a,b,c;
+float x1,x2,p;
+
+printf("enter the value of a , b , c (b value must br greater than ac) = ");
+
+scanf("%d%d%d",&a,&b,&c);
+
+	p=(b*b)-(4*a*c); 	
+	
+	x1 = (-b+sqrt(p))/(2*a);
+	
+	x2 = ( -b-sqrt(p))/(2*a);
+	
+	printf("the value of -ve x is = %lf ",x1);
+	printf("\n0the value of +ve x is = %f",x2);
+	
+	return 0;
+}

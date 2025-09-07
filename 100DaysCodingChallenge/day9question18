@@ -1,0 +1,39 @@
+/*Write a program that accepts a percentage (0-100) and 
+assigns a grade based on the following criteria:*/
+
+#include<stdio.h>
+int main ()
+{
+	printf("Name - Hitesh\nSAP_ID-590027742\nCourse - BCA\nBatch - 6");
+    printf("\n-----------------------------------\n");
+
+	int a;
+	printf("enter a suitable percentage (0-100) = ");
+	scanf("%d",&a);
+	
+	if (a>=90 && a<=100)
+	{
+		printf("Grade A");
+	}
+	else if (a>=80 && a<=89)
+	{
+		printf("Grade B");
+	}
+	else if (a>=70 && a<=79)
+	{
+		printf("Grade C");
+	}
+	else if (a>=60 && a<=69)
+	{
+		printf("Grade D");
+	}
+	else if (a>=0 && a<=59)
+	{
+		printf("Grade F");
+	}
+	else
+	{
+		printf("invalid percentage please try again !!!");
+	}
+	return 0;
+}

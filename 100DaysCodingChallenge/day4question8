@@ -1,0 +1,11 @@
+//Write a program to find and display the sum of the first n natural numbers.
+#include<stdio.h>
+int main ()
+{
+	int a,b;
+	printf("enter n number of natural number = ");
+	scanf("%d",&a);
+	b = a*(a+1)/2;
+	printf("sum of the first %d number of natural number will be = %d",a,b);
+	return 0;
+}

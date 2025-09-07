@@ -1,0 +1,54 @@
+//Write a program to input a character and check whether it is a vowel or consonant using if–else.
+#include<stdio.h>
+int main()
+{
+	char w;
+	printf("enter a word = ");
+	scanf("%c",&w);
+	
+	if (w=='a')
+	{
+		printf("vowels");
+	}
+		else if (w=='e')
+		{
+			printf("vowels");
+		}
+    	else if (w=='i')
+		{
+			printf("vowels");
+		}
+		else if (w=='o')
+		{
+			printf("vowels");
+		}
+    	else if (w=='u')
+		{
+			printf("vowels");
+		}
+		else if (w=='A')
+		{
+			printf("vowels");
+		}
+		else if (w=='E')
+		{
+			printf("vowels");
+		}
+    	else if (w=='I')
+		{
+			printf("vowels");
+		}
+		else if (w=='O')
+		{
+			printf("vowels");
+		}
+    	else if (w=='U')
+		{
+			printf("vowels");
+		}
+	else 
+	{
+		printf("consonant");
+	}
+	return 0;
+}

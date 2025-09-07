@@ -1,0 +1,14 @@
+//Write a program to calculate simple and compound interest for given principal, rate, and time
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+	int p;
+	float r,n,ci,amt;
+	printf("enter the principal amount , rate , time = ");
+	scanf("%d%f%f",&p,&r,&n);
+	ci=p*pow((1+r/100),n);
+	amt=ci-p;
+	printf("compund intrest will be = %f",amt);
+	return 0;
+}
